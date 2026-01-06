@@ -1,12 +1,13 @@
-import Accordian from './components/accordian'
-import './App.css'
+import Accordian from './components/accordian';
+import Color from './components/color_generator';
+import './App.css';
 
 function App() {
   
 
   return (
     <div className='App'>
-    <Accordian/>
+    <Color/>
     </div>
 
   )
