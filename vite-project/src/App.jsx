@@ -6,6 +6,7 @@ import LoadMoreData from './components/LoadMoreData';
 import TreeView from './components/tree-view';
 import QRCodeGenerator from './components/qr-generator';
 import LightDarkMode from './components/light-dark-mode';
+import ScrollIndicator from './components/scroll-indicator';
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div className='App'>
-    <LightDarkMode/>
+    <ScrollIndicator/>
     </div>
 
   )
