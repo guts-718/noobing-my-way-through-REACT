@@ -3,6 +3,7 @@ import Color from './components/color_generator';
 import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/LoadMoreData';
+import TreeView from './components/tree-view';
 import './App.css';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div className='App'>
-     <LoadMoreData/>
+     <TreeView/>
     </div>
 
   )
