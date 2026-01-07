@@ -1,0 +1,55 @@
+.github-container {
+  max-width: 400px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-btn {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.profile-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.username {
+  margin: 0 0 10px 0;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}

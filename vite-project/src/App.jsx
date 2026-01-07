@@ -9,6 +9,7 @@ import LightDarkMode from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
 import TabContent from './components/custom-tabs/tab-content';
 import ModalTest from './components/custom-modal-popup/modal-test';
+import GithubProfile from './components/github-profile';
 import './App.css';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <div className='App'>
-    <ModalTest/>
+    <GithubProfile/>
     </div>
 
   )
