@@ -8,6 +8,7 @@ import QRCodeGenerator from './components/qr-generator';
 import LightDarkMode from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
 import TabContent from './components/custom-tabs/tab-content';
+import ModalTest from './components/custom-modal-popup/modal-test';
 import './App.css';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <div className='App'>
-    <TabContent/>
+    <ModalTest/>
     </div>
 
   )
