@@ -7,6 +7,7 @@ import TreeView from './components/tree-view';
 import QRCodeGenerator from './components/qr-generator';
 import LightDarkMode from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
+import TabContent from './components/custom-tabs/tab-content';
 import './App.css';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <div className='App'>
-    <ScrollIndicator/>
+    <TabContent/>
     </div>
 
   )
