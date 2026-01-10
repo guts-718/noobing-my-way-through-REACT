@@ -11,6 +11,7 @@ import TabContent from './components/custom-tabs/tab-content';
 import ModalTest from './components/custom-modal-popup/modal-test';
 import GithubProfile from './components/github-profile';
 import SearchAutoComplete from './components/search_autocomplete';
+import TicTacToe from './components/tic-tac-toe';
 import './App.css';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <div className='App'>
-    <SearchAutoComplete/>
+    <TicTacToe/>
     </div>
 
   )
