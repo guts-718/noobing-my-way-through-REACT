@@ -13,13 +13,16 @@ import GithubProfile from './components/github-profile';
 import SearchAutoComplete from './components/search_autocomplete';
 import TicTacToe from './components/tic-tac-toe';
 import './App.css';
-
+import FeatureFlagGlobalState from './components/feature_flag/context';
+import FeatureFlags from './components/feature_flag'
 function App() {
   
 
   return (
     <div className='App'>
-    <TicTacToe/>
+       <FeatureFlagGlobalState>
+          <FeatureFlags/>
+       </FeatureFlagGlobalState>
     </div>
 
   )
