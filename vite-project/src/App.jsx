@@ -15,14 +15,14 @@ import TicTacToe from './components/tic-tac-toe';
 import './App.css';
 import FeatureFlagGlobalState from './components/feature_flag/context';
 import FeatureFlags from './components/feature_flag'
+import UseFetchTest from './components/use-fetch/test';
 function App() {
   
-
+  
   return (
+    
     <div className='App'>
-       <FeatureFlagGlobalState>
-          <FeatureFlags/>
-       </FeatureFlagGlobalState>
+      <UseFetchTest/>
     </div>
 
   )
