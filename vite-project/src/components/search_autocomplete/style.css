@@ -1,0 +1,47 @@
+.search-container {
+  width: 300px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.search-button {
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestions-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;          
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.user-card {
+  margin-top: 16px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  margin-top: 8px;
+}
